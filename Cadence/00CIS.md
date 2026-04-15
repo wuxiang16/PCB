@@ -52,7 +52,7 @@ Value → 人看 / 设计展示
 - Schematic Part
 - Allegro PCB Footprint
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ---
 
@@ -61,67 +61,67 @@ Value → 人看 / 设计展示
 # 1. Cadence相关实操
 ## 1.1 添加数据源
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 - 解释下 ODBC，ODBC 全称 Open Database Connectivity 开放数据库连接。
 - ODBC是把 *.mdb 文件和 Cadence CIS 串联起来的关键桥梁。
 
 自定义数据源的名字为 CadenceCIS，找到课程提供的数据库。
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ## 1.2 Design Entry CIS 原理图 CIS 数据库的配置
 先任意打开一个工程文件。
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 Option 中选择 CIS Configuration。
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 Finish之后会弹出如下页面就配置完了，直接确认。
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 确认后弹出页面，找个位置命名保存，这里命名为 CadenceCIS.dbc。
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
 任意一个PAGE中，如下，按键```z```打开 CIS Explorer。
 
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 
 需要在菜单栏 view 中点击 visibility。
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
 ## 1.3 配置 Capture.ini
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 
-![alt text](image-21.png)
+![alt text](images/image-21.png)
 
 
 # 2. 库中加器件
 以电容为例，随便在 *.mdb 数据库中新增一个。保证SCH和PCB Footprint要有。
 
-![alt text](image-22.png)
+![alt text](images/image-22.png)
 
-![alt text](image-23.png)
+![alt text](images/image-23.png)
 
 
