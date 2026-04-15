@@ -14,7 +14,7 @@ Value → 人看 / 设计展示
 
 👉 一句话：
 
-- Value 是给工程师看的，Manufacturer Part Number 是给采购用的。
+- Value 是给工程师看的，Mabufaturer Part Number 是给采购用的。
 
 
 # Datasheet / Capture Library / Allegro Library
@@ -26,7 +26,7 @@ Value → 人看 / 设计展示
 ## 三者是怎么连起来的？
 
 - 中间靠一个字段 —— **footprint**
-- 最关键的一步：在Capture中有个属性：```PCB Footprint = QFN32_5x5```，意思是：我这个图标，到PCB中要使用QFN_5x5封装。
+- 最关键的一步：在Capture中有个属性：```PCB Footprint = QFN32_5x5```，意思是：我这个图标，到PCB中要使用QFN_5x5或者封装。
   
 ---
 
@@ -60,64 +60,68 @@ Value → 人看 / 设计展示
 
 # 1. Cadence相关实操
 ## 1.1 添加数据源
-![[Pasted image 20260415210838.png]]
 
-![[Pasted image 20260415211029.png]]
+![alt text](image-1.png)
 - 解释下 ODBC，ODBC 全称 Open Database Connectivity 开放数据库连接。
 - ODBC是把 *.mdb 文件和 Cadence CIS 串联起来的关键桥梁。
 
-自定义数据源的名字为 CadenceCIS，找到课程提供的数据库。![[Pasted image 20260415211052.png]]
+自定义数据源的名字为 CadenceCIS，找到课程提供的数据库。
+![alt text](image-2.png)
 
-## 1.2 Capture CIS 原理图 CIS 数据库的配置
+## 1.2 Design Entry CIS 原理图 CIS 数据库的配置
 先任意打开一个工程文件。
 
-![[Pasted image 20260415211241.png]]
+![alt text](image-3.png)
 Option 中选择 CIS Configuration。
 
-![[Pasted image 20260415211330.png]]
+![alt text](image-4.png)
 
-![[Pasted image 20260415211349.png]]
+![alt text](image-5.png)
 
-![[Pasted image 20260415211410.png]]
+![alt text](image-6.png)
 
-![[Pasted image 20260415211455.png]]
+![alt text](image-7.png)
 
-![[Pasted image 20260415211515.png]]
+![alt text](image-8.png)
 
-![[Pasted image 20260415211552.png]]
+![alt text](image-9.png)
 
-![[Pasted image 20260415211632.png]]
+![alt text](image-10.png)
 
-![[Pasted image 20260415211818.png]]
+![alt text](image-11.png)
 
-![[Pasted image 20260415211842.png]]
+![alt text](image-12.png)
 
-![[Pasted image 20260415211956.png]]
-
-![[Pasted image 20260415212025.png]]
+![alt text](image-13.png)
 
 Finish之后会弹出如下页面就配置完了，直接确认。
-![[Pasted image 20260415212059.png]]
+![alt text](image-14.png)
 
-确认后弹出页面，找个位置命名保存，这里命名为 wuxiang_cis.dbc。
-![[Pasted image 20260415212257.png]]
+确认后弹出页面，找个位置命名保存，这里命名为 CadenceCIS.dbc。
+![alt text](image-15.png)
+
+![alt text](image-16.png)
 
 任意一个PAGE中，如下，按键```z```打开 CIS Explorer。
 
+![alt text](image-17.png)
 
+![alt text](image-18.png)
+
+需要在菜单栏 view 中点击 visibility。
+![alt text](image-19.png)
 
 ## 1.3 配置 Capture.ini
-WUXIANG_CIS.DBC是我们前面配置的关联 `*.mdb`数据库的配置文件。
+![alt text](image-20.png)
 
-![[Pasted image 20260415214738.png]]
+![alt text](image-21.png)
+
 
 # 2. 库中加器件
 以电容为例，随便在 *.mdb 数据库中新增一个。保证SCH和PCB Footprint要有。
 
-![[Pasted image 20260415222613.png]]
-![[Pasted image 20260415222702.png]]
+![alt text](image-22.png)
 
-
-
+![alt text](image-23.png)
 
 
