@@ -1,0 +1,51 @@
+(ExpressProject "RK3568_CB_1V0"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rk3568_cb_1v0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (Innersheet_title_YC
+      (LibraryName "D:\CADENCE\LIBRARY\CIS\SCH\TRENT_TITLEBLOCK.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\rk3568_cb_1v0.dsn")
+      (Path "Design Resources" ".\rk3568_cb_1v0.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\rk3568_cb_1v0.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 343 0 738"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1063 52 432")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\PROS\00NOTE\01PCB\RK3568_CB\SCH\RK3568_CB_1V0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03_Sys_Block"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1093 78 462")
+        (Scroll "-166 -2")
+        (Zoom "61")
+        (Occurrence "/"))
+      (Path "E:\PROS\00NOTE\01PCB\RK3568_CB\SCH\RK3568_CB_1V0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04_Power_Sequence_Block")))
+  (MPSSessionName "wuxiang"))
