@@ -8,11 +8,30 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
+    (DOCKED "FALSE")
     (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "D:\CADENCE\LIBRARY\CIS\SCH\CAPCITATOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-OUT
+      (LibraryName "D:\CADENCE\LIBRARY\CIS\SCH\OFFPAGE_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\CADENCE\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SOC_RK3568
+      (FullPartName "SOC_RK3568A.Normal")
+      (LibraryName "D:\CADENCE\LIBRARY\CIS\SCH\IC.OLB")
+      (DeviceIndex "0"))
     (Innersheet_title_YC
       (LibraryName "D:\CADENCE\LIBRARY\CIS\SCH\TRENT_TITLEBLOCK.OLB")
       (DeviceIndex "0")))
@@ -21,31 +40,31 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\rk3568_cb_1v0.dsn")
       (Path "Design Resources" ".\rk3568_cb_1v0.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\rk3568_cb_1v0.dsn"))
+      (Path "Design Resources" ".\rk3568_cb_1v0.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 343 0 738"))
+        (Placement "44 2 3 -1 -1 -8 -31 156 1282 156 577"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1063 52 432")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1323 78 499")
         (Scroll "0 0")
-        (Zoom "100")
+        (Zoom "42")
         (Occurrence "/"))
       (Path "E:\PROS\00NOTE\01PCB\RK3568_CB\SCH\RK3568_CB_1V0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "03_Sys_Block"))
+      (Page "00_"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1093 78 462")
-        (Scroll "-166 -2")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1401 130 514")
+        (Scroll "-255 0")
         (Zoom "61")
         (Occurrence "/"))
       (Path "E:\PROS\00NOTE\01PCB\RK3568_CB\SCH\RK3568_CB_1V0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "04_Power_Sequence_Block")))
+      (Page "06_POWER_3568")))
   (MPSSessionName "wuxiang"))
