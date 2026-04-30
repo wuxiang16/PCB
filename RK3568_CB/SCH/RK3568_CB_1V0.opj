@@ -60,7 +60,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 156 1282 156 577"))
+        (Placement "44 0 1 -1 -1 -8 -31 156 1282 156 577"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -85,8 +85,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1368 0 384")
-        (Scroll "0 51")
+        (Placement "44 2 3 -1 -1 -8 -31 0 1368 0 384")
+        (Scroll "-35 90")
         (Zoom "86")
         (Occurrence "/"))
       (Path "E:\PROS\00NOTE\01PCB\RK3568_CB\SCH\RK3568_CB_1V0.DSN")
